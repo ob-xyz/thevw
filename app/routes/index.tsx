@@ -23,9 +23,9 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>Jeffamzn</h1>
+        <h1>The Valleywag</h1>
          <h2>SIGN UP TO STAY INFORMED</h2>
-         <p>Subscribe to <u><span>Jeffamzn</span></u>: Your 5-minute update on every news story that matters.</p>
+         <p>Subscribe to <u><span>The Valleywag</span></u>: Your 5-minute update on every local news story that matters, from Tay Valley to the Ottawa Valley.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
