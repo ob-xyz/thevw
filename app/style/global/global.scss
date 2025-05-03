@@ -14,7 +14,7 @@ body {
   margin: auto;
   width:100%;
   height: 100vh;
-  background-color: #fff7ed;
+  background-color: $navyblue;
 }
 body {
   overflow-y: none;
@@ -23,7 +23,7 @@ body {
 main{
   padding:0;
   margin:0;
-  background:#fff7ed;
+  background:#720517;
 }
 img {
   display: block;
@@ -41,7 +41,7 @@ h1 {
   font-size: 1.35rem;
   font-family: book;
   font-weight: 100;
-  color: $black;
+  color: #fff;
   text-decoration: none;
   text-shadow: none;
 }
@@ -49,7 +49,7 @@ h2 {
   font-size: 0.8rem;
   font-family: medium;
   font-weight: 100;
-  color: $black;
+  color: #fff;
   text-decoration: none;
   text-shadow: none;
 }
@@ -64,7 +64,7 @@ h6 {
 p {
   font-family: 'book';
   font-size: 1.1rem;
-  color: $black;
+  color: #fff;
   text-shadow: none;
 }
 ul,
@@ -74,7 +74,7 @@ ol {
 }
 span {
   font-family: bold;
-  color: $black;
+  color: #fff;
 }
 button {
   font-size: 0.8rem;

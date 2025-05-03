@@ -3,14 +3,13 @@
     flex-direction: column;
     img{
         background:none;
-        margin:1rem 0 2.5rem 0rem;
-        width: 4rem;
-        border-radius:.5rem;
-        border: .175rem solid #000;
+        margin:1.25rem 0 2rem 0rem;
+        width: 3.5rem;
     }
     form{
         margin-top: .5rem;
     }
+
 .inner-content{
         display: flex;
         flex-direction: column;
@@ -21,13 +20,15 @@
         font-size: 4.5rem;
         line-height:3.25rem;
     }
+    h1:nth-child(1){
+        font-size:1.5rem;
+        line-height: 1rem;
+    }
     h2{
         text-align: center;
-        font-family: ku;
-        font-size: 1.56rem;
-        padding:.35rem 0 1rem 0;
-        text-transform: uppercase;
-        line-height:2.1rem;
+        font-family: kl;
+        font-size: .925rem;
+        padding:1.25rem 0 3.25rem 0;
     }
     p, span{
         text-align: center;
@@ -36,21 +37,21 @@
         line-height: 1.65rem;
     }
     u{
-        color:$orange;
+        color:$darkred;
     }
 }
 input{
     width:23rem;
     padding:.85rem .75rem;
     font-family: arial;
-    color:black;
-    border:2px solid black;
+    color:$black;
+    border:2px solid #000;
     border-radius: .2rem;
     font-size: 1.1rem;  
     &:focus {
         outline: none; // Remove default browser outline
-        box-shadow: 0 0 1px 1px black; // Change glow to black
-        border-color: black; // Optional: Change the border to black as well
+        box-shadow: 0 0 1px 1px #000; // Change glow to black
+        border-color: #000; // Optional: Change the border to black as well
         caret-color: black; // Set the caret (blinking cursor) color to black
       }
 }
@@ -62,10 +63,10 @@ input{
     padding:.75rem .75rem;
     margin-top: .5rem;
     margin-bottom:.65rem;
-    background-color: #000;
-    color:white;
+    background-color: $darkred;
+    color:#fff;
     &:hover{
-        opacity: .85;
+        opacity: .95;
         cursor: pointer; 
     }
 }  
@@ -90,10 +91,6 @@ input{
                 font-size:3rem;
                 line-height: 2rem;
             }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
-            }
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
@@ -113,10 +110,6 @@ input{
             h1{
                 font-size:3rem;
                 line-height: 2rem;
-            }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
             }
             p, span{
                 font-size:1rem;
@@ -138,10 +131,6 @@ input{
                 font-size:3rem;
                 line-height: 2rem;
             }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
-            }
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
@@ -161,10 +150,6 @@ input{
             h1{
                 font-size:3rem;
                 line-height: 2rem;
-            }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
             }
             p, span{
                 font-size:1rem;
@@ -186,10 +171,6 @@ input{
                 font-size:3rem;
                 line-height: 2rem;
             }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
-            }
             p, span{
                 font-size:1rem;
                 line-height:1.5rem;
@@ -209,10 +190,6 @@ input{
             h1{
                 font-size:3rem;
                 line-height: 2rem;
-            }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
             }
             p, span{
                 font-size:1rem;
@@ -234,10 +211,6 @@ input{
                     font-size:3rem;
                     line-height: 2rem;
                 }
-                h2{
-                    font-size:1.035rem;
-                    line-height:1.1rem;
-                }
                 p, span{
                     font-size:1rem;
                     line-height:1.5rem;
@@ -257,10 +230,6 @@ input{
             h1{
                 font-size:3rem;
                 line-height: 2rem;
-            }
-            h2{
-                font-size:1.035rem;
-                line-height:1.1rem;
             }
             p, span{
                 font-size:1rem;
