@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["export default function Index() {\n  return (\n    <div style={{ fontFamily: \"system-ui, sans-serif\", lineHeight: \"1.4\" }}>\n      <h1>Bites Atoms Life.</h1>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAGM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,OAAO,EAAE,YAAY,yBAAyB,YAAY,MAAM,GACnE,6DAAC,QAAG,iCAAJ;AAAA;AAAA;AAAA;AAAA,SAAqB,KADvB;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
+  "names": []
+}

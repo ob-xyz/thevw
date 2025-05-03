@@ -1,0 +1,196 @@
+/* app/style/global/global.css */
+@font-face {
+  font-family: book;
+  src: url(/build/_assets/bal-book-RPKGHEBY.woff2) format("woff2");
+}
+@font-face {
+  font-family: medium;
+  src: url(/build/_assets/bal-medium-X4OF47SR.woff2) format("woff2");
+}
+@font-face {
+  font-family: bold;
+  src: url(/build/_assets/bal-bold-MFTBU4WP.woff2) format("woff2");
+}
+@font-face {
+  font-family: arial;
+  src: url(/build/_assets/bal-arial-AQMYFA4H.woff2) format("woff2");
+}
+@font-face {
+  font-family: bw;
+  src: url(/build/_assets/BroadwayD-FDCN7NFO.otf) format("otf");
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 77vh;
+}
+.container img {
+  margin-top: 1rem;
+  background: none;
+  padding: 0;
+  border-radius: .75rem;
+  width: 31rem;
+}
+.container .logo {
+  padding-right: 1.75rem;
+}
+.container .inner-content {
+  display: flex;
+  flex-direction: column;
+}
+.container .inner-content .text p:nth-child(1) {
+  font-family: bw;
+  font-weight: 700;
+  font-size: 1.7rem;
+  padding: 0;
+}
+.container .inner-content .text p {
+  width: 56%;
+  padding: .2rem 0 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.container .inner-content input {
+  width: 32.25rem;
+  padding: .85rem .75rem;
+  font-family: arial;
+  color: #000;
+  border: 2px solid black;
+  border-radius: .2rem;
+  font-size: .95rem;
+}
+.container .inner-content input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #000;
+  border-color: #000;
+  caret-color: #000;
+}
+.container .inner-content .email {
+  margin-top: .35rem;
+}
+.container .inner-content .submit {
+  padding: .75rem;
+  margin-top: .5rem;
+  background-color: #000;
+  color: #fff;
+}
+.container .inner-content .submit:hover {
+  opacity: .85;
+  cursor: pointer;
+}
+@media screen and (min-width: 791px) and (max-width: 875px) {
+  .container img {
+    width: 27.5rem;
+  }
+  .container .inner-content .text p {
+    width: 57.25%;
+  }
+  .container .inner-content input {
+    width: 28.75rem;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 790px) {
+  .container img {
+    width: 27.5rem;
+  }
+  .container .inner-content .text p {
+    width: 75%;
+  }
+  .container .inner-content input {
+    width: 26.75rem;
+  }
+}
+@media screen and (max-width: 339px) {
+  .container {
+    padding: 0 .35rem;
+  }
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .container .inner-content .text p {
+    width: 97.5%;
+  }
+  .container .inner-content input {
+    width: 21rem;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: auto;
+  user-select: none;
+}
+html,
+body {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #fafafa;
+}
+body {
+  overflow-y: none;
+  overflow-x: hidden;
+}
+main {
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  font-family: book;
+}
+h1 {
+  font-size: 1.35rem;
+  font-family: book;
+  font-weight: 100;
+  color: #121212;
+  text-decoration: none;
+  text-shadow: none;
+}
+h2 {
+  font-size: .8rem;
+  font-family: medium;
+  font-weight: 100;
+  color: #121212;
+  text-decoration: none;
+  text-shadow: none;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: medium;
+  color: #121212;
+  text-shadow: none;
+}
+p {
+  font-family: book;
+  font-size: 1.1rem;
+  color: #121212;
+  text-shadow: none;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+span {
+  font-family: bold;
+  font-size: 4rem;
+  color: #121212;
+}
+button {
+  font-size: .8rem;
+  font-family: medium;
+  font-weight: 100;
+}

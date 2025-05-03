@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["import logo from \"~/../public/img/ja.png\";\n\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <div className=\"inner-container\">\n        <img src={logo} />\n      <a className=\"in\" href=\"https://app.jeffamzn.com/subscription/form\">Subscribe</a>\n      <div className=\"terms\">\n          <p>This site is protected by reCAPTCHA and the Google <a href=\"https://policies.google.com/privacy\">Privacy Policy</a> and <a className=\"in\" href=\"https://policies.google.com/terms\">Terms of Service</a> apply.</p>\n      </div>\n      </div>\n    </div>\n  );\n}"],
+  "mappings": ";;;;;;;;;AAMQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb,6DAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,KAAK,cAAV;AAAA;AAAA;AAAA;AAAA,WAAgB;AAAA,IAClB,mDAAC,OAAE,WAAU,MAAK,MAAK,8CAA6C,yBAApE;AAAA;AAAA;AAAA;AAAA,WAA6E;AAAA,IAC7E,mDAAC,SAAI,WAAU,SACX,6DAAC,OAAE;AAAA;AAAA,MAAmD,mDAAC,OAAE,MAAK,uCAAsC,8BAA9C;AAAA;AAAA;AAAA;AAAA,aAA4D;AAAA,MAAI;AAAA,MAAK,mDAAC,OAAE,WAAU,MAAK,MAAK,qCAAoC,gCAA3D;AAAA;AAAA;AAAA;AAAA,aAA2E;AAAA,MAAI;AAAA,SAA1M;AAAA;AAAA;AAAA;AAAA,WAAiN,KADrN;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,OALA;AAAA;AAAA;AAAA;AAAA,SAMA,KAPF;AAAA;AAAA;AAAA;AAAA,SAQA;AAEJ;",
+  "names": []
+}

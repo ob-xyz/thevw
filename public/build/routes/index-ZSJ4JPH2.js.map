@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["import logo from \"~/../public/img/fan.png\";\n\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <div className=\"inner-container\">\n        <img src={logo} />\n        <h1> DM will drive a lot of traffic to Fanatics. <br></br> Our degens will buy March Madness gear. <br></br> College basketball makes us feel alive.</h1>\n      </div>\n    </div>\n  );\n}\n"],
+  "mappings": ";;;;;;;;;AAMQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb,6DAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,KAAK,eAAV;AAAA;AAAA;AAAA;AAAA,WAAgB;AAAA,IAChB,mDAAC,QAAG;AAAA;AAAA,MAA6C,mDAAC,UAAD;AAAA;AAAA;AAAA;AAAA,aAAI;AAAA,MAAK;AAAA,MAAyC,mDAAC,UAAD;AAAA;AAAA;AAAA;AAAA,aAAI;AAAA,MAAK;AAAA,SAA5G;AAAA;AAAA;AAAA;AAAA,WAAoJ;AAAA,OAFtJ;AAAA;AAAA;AAAA;AAAA,SAGA,KAJF;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;",
+  "names": []
+}

@@ -1,0 +1,276 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    img{
+        background:none;
+        margin:1rem 0 2.5rem 0rem;
+        width: 4rem;
+        border-radius:.5rem;
+        border: .175rem solid #000;
+    }
+    form{
+        margin-top: .5rem;
+    }
+.inner-content{
+        display: flex;
+        flex-direction: column;
+.text{
+    h1{
+        text-align: center;
+        font-family: ku;
+        font-size: 4.5rem;
+        line-height:3.25rem;
+    }
+    h2{
+        text-align: center;
+        font-family: ku;
+        font-size: 1.56rem;
+        padding:.35rem 0 1rem 0;
+        text-transform: uppercase;
+        line-height:2.1rem;
+    }
+    p, span{
+        text-align: center;
+        width:54%;
+        font-size:1.15rem;
+        line-height: 1.65rem;
+    }
+    u{
+        color:$orange;
+    }
+}
+input{
+    width:23rem;
+    padding:.85rem .75rem;
+    font-family: arial;
+    color:black;
+    border:2px solid black;
+    border-radius: .2rem;
+    font-size: 1.1rem;  
+    &:focus {
+        outline: none; // Remove default browser outline
+        box-shadow: 0 0 1px 1px black; // Change glow to black
+        border-color: black; // Optional: Change the border to black as well
+        caret-color: black; // Set the caret (blinking cursor) color to black
+      }
+}
+.email{
+    margin-top: .2rem;
+    padding-left:.6rem;
+}
+.submit{
+    padding:.75rem .75rem;
+    margin-top: .5rem;
+    margin-bottom:.65rem;
+    background-color: #000;
+    color:white;
+    &:hover{
+        opacity: .85;
+        cursor: pointer; 
+    }
+}  
+  }
+}
+@media screen and (min-width: 606px) and (max-width: 690px) {
+    .container{
+    .inner-content{
+        .text{
+            p, span{
+                width:58.5%;
+            }
+        }
+    }
+ }
+}
+@media screen and (min-width: 552px) and (max-width:611px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:57.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 505px) and (max-width: 551px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:65%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 466px) and (max-width: 504px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:70%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 450px) and (max-width: 465px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:70%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 424px) and (max-width: 449px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:77.55%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 394px) and (max-width: 423px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:82.50%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 372px) and (max-width: 393px) {
+    .container{
+        .inner-content{
+            .text{
+                h1{
+                    font-size:3rem;
+                    line-height: 2rem;
+                }
+                h2{
+                    font-size:1.035rem;
+                    line-height:1.1rem;
+                }
+                p, span{
+                    font-size:1rem;
+                    line-height:1.5rem;
+                    width:87.5%;
+                }
+            }
+            input{
+                width:18.85rem;
+            }
+        }
+     }
+    }
+@media screen and (max-width: 371px) {
+    .container{
+    .inner-content{
+        .text{
+            h1{
+                font-size:3rem;
+                line-height: 2rem;
+            }
+            h2{
+                font-size:1.035rem;
+                line-height:1.1rem;
+            }
+            p, span{
+                font-size:1rem;
+                line-height:1.5rem;
+                width:95%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}

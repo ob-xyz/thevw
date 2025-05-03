@@ -1,0 +1,274 @@
+/* app/style/global/global.css */
+@font-face {
+  font-family: book;
+  src: url(/build/_assets/bal-book-RPKGHEBY.woff2) format("woff2");
+}
+@font-face {
+  font-family: medium;
+  src: url(/build/_assets/bal-medium-X4OF47SR.woff2) format("woff2");
+}
+@font-face {
+  font-family: bold;
+  src: url(/build/_assets/bal-bold-MFTBU4WP.woff2) format("woff2");
+}
+@font-face {
+  font-family: arial;
+  src: url(/build/_assets/bal-arial-AQMYFA4H.woff2) format("woff2");
+}
+@font-face {
+  font-family: bw;
+  src: url(/build/_assets/BroadwayD-FDCN7NFO.otf) format("otf");
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 62.5vh;
+}
+.container img {
+  margin-top: 1rem;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+  padding-bottom: .6rem;
+  width: 11rem;
+}
+.container .inner-content {
+  display: flex;
+  flex-direction: column;
+}
+.container .inner-content .text p:nth-child(1) {
+  font-family: bw;
+  font-size: 1.85rem;
+  padding: 0;
+}
+.container .inner-content .text p {
+  width: 70%;
+  padding: .65rem 0 1.25rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.container .inner-content input {
+  padding: .85rem .75rem;
+  width: 27.25rem;
+  font-family: arial;
+  color: #000;
+  border: 1px solid black;
+  border-radius: .2rem;
+  font-size: .95rem;
+}
+.container .inner-content input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px #000;
+  border-color: #000;
+  caret-color: #000;
+}
+.container .inner-content .email {
+  margin-top: .35rem;
+}
+.container .inner-content .submit {
+  padding: .75rem;
+  margin-top: .5rem;
+  background-color: #000;
+  color: #fff;
+}
+.container .inner-content .submit:hover {
+  opacity: .85;
+  cursor: pointer;
+}
+@media screen and (min-width: 520px) and (max-width: 681px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.25rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-weight: 700;
+  }
+  .container .inner-content .text p {
+    width: 55%;
+    padding: .35rem 0 1.25rem;
+    font-size: .95rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content input {
+    width: 18.25rem;
+  }
+}
+@media screen and (min-width: 500px) and (max-width: 519px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.25rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-weight: 700;
+  }
+  .container .inner-content .text p {
+    width: 57.5%;
+    padding: .35rem 0 1.25rem;
+    font-size: .95rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content input {
+    width: 18.5rem;
+  }
+}
+@media screen and (min-width: 478px) and (max-width: 499px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.25rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-weight: 700;
+  }
+  .container .inner-content .text p {
+    width: 60%;
+    padding: .35rem 0 1.25rem;
+    font-size: .95rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content input {
+    width: 18.5rem;
+  }
+}
+@media screen and (min-width: 458px) and (max-width: 477px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.25rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-weight: 700;
+  }
+  .container .inner-content .text p {
+    width: 62.5%;
+    padding: .35rem 0 1.25rem;
+    font-size: .95rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content input {
+    width: 18.5rem;
+  }
+}
+@media screen and (min-width: 440px) and (max-width: 457px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.25rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-weight: 700;
+  }
+  .container .inner-content .text p {
+    width: 65%;
+    padding: .35rem 0 1.25rem;
+    font-size: .95rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content input {
+    width: 18.25rem;
+  }
+}
+@media screen and (min-width: 410px) and (max-width: 439px) {
+  .container img {
+    width: 10rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-size: 1.25rem;
+  }
+  .container .inner-content .text p:nth-child(1) {
+    font-weight: 700;
+  }
+  .container .inner-content .text p {
+    width: 70%;
+    padding: .35rem 0 1.25rem;
+    font-size: .95rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content input {
+    width: 18.25rem;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: auto;
+  user-select: none;
+}
+html,
+body {
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  background-color: #fafafa;
+}
+body {
+  overflow-y: none;
+  overflow-x: hidden;
+}
+main {
+  padding: 0;
+  margin: 0;
+  background: #fafafa;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  font-family: book;
+}
+h1 {
+  font-size: 1.35rem;
+  font-family: book;
+  font-weight: 100;
+  color: #121212;
+  text-decoration: none;
+  text-shadow: none;
+}
+h2 {
+  font-size: .8rem;
+  font-family: medium;
+  font-weight: 100;
+  color: #121212;
+  text-decoration: none;
+  text-shadow: none;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: medium;
+  color: #121212;
+  text-shadow: none;
+}
+p {
+  font-family: book;
+  font-size: 1.1rem;
+  color: #121212;
+  text-shadow: none;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+}
+span {
+  font-family: bold;
+  font-size: 4rem;
+  color: #121212;
+}
+button {
+  font-size: .8rem;
+  font-family: medium;
+  font-weight: 100;
+}

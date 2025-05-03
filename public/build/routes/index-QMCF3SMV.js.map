@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/index.tsx"],
+  "sourcesContent": ["import logo from \"~/../public/img/ja.png\";\n\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <div className=\"inner-container\">\n        <img src={logo} />\n      <a href=\"https://app.jeffamzn.com/subscription/form\">Subscribe</a>\n      </div>\n    </div>\n  );\n}"],
+  "mappings": ";;;;;;;;;AAMQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb,6DAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,KAAK,cAAV;AAAA;AAAA;AAAA;AAAA,WAAgB;AAAA,IAClB,mDAAC,OAAE,MAAK,8CAA6C,yBAArD;AAAA;AAAA;AAAA;AAAA,WAA8D;AAAA,OAF9D;AAAA;AAAA;AAAA;AAAA,SAGA,KAJF;AAAA;AAAA;AAAA;AAAA,SAKA;AAEJ;",
+  "names": []
+}
