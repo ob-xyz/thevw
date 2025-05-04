@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.tsx"],
-  "sourcesContent": ["import banner from \"./images/banner.jpg\";\n\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <img src={logo} />\n    </div>\n  );\n}\n"],
-  "mappings": ";;;;;;AAKM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb,6DAAC,SAAI,KAAK,QAAV;AAAA;AAAA;AAAA;AAAA,SAAgB,KADlB;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
-  "names": []
-}

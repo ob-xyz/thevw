@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.tsx", "browser-route-module:routes/index.tsx?browser"],
-  "sourcesContent": ["", "export { default } from \"./routes/index.tsx\";"],
-  "mappings": ";;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;;;ACAA,oBAAwB;",
-  "names": []
-}

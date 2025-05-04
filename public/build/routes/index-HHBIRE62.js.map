@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.tsx"],
-  "sourcesContent": ["export default function Index() {\n  return (\n    <div className=\"container\">\n      <h1>Deadly irrelevant news.</h1>\n    </div>\n  );\n}\n"],
-  "mappings": ";;;;;;AAGM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb,6DAAC,QAAG,uCAAJ;AAAA;AAAA;AAAA;AAAA,SAA2B,KAD7B;AAAA;AAAA;AAAA;AAAA,SAEA;AAEJ;",
-  "names": []
-}

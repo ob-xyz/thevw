@@ -30,14 +30,10 @@ var entry_server_exports = {};
 __export(entry_server_exports, {
   default: () => handleRequest
 });
-var import_react = require("@remix-run/react"), import_server = require("react-dom/server"), import_jsx_dev_runtime = require("react/jsx-dev-runtime");
+var import_react = require("@remix-run/react"), import_server = require("react-dom/server"), import_jsx_runtime = require("react/jsx-runtime");
 function handleRequest(request, responseStatusCode, responseHeaders, remixContext) {
   let markup = (0, import_server.renderToString)(
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react.RemixServer, { context: remixContext, url: request.url }, void 0, !1, {
-      fileName: "app/entry.server.tsx",
-      lineNumber: 12,
-      columnNumber: 5
-    }, this)
+    /* @__PURE__ */ (0, import_jsx_runtime.jsx)(import_react.RemixServer, { context: remixContext, url: request.url })
   );
   return responseHeaders.set("Content-Type", "text/html"), new Response("<!DOCTYPE html>" + markup, {
     headers: responseHeaders,
@@ -55,10 +51,10 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/style/global/global.css
-var global_default = "/build/_assets/global-D7CRWN3T.css";
+var global_default = "/build/_assets/global-72MSLAZX.css";
 
 // app/root.tsx
-var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
+var import_jsx_runtime2 = require("react/jsx-runtime"), links = () => [
   {
     rel: "icon",
     href: "/favicon.ico",
@@ -75,54 +71,18 @@ var import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
   viewport: "width=device-width,initial-scale=1"
 });
 function App() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("html", { lang: "en", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Meta, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 39,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Links, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 40,
-        columnNumber: 9
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/root.tsx",
-      lineNumber: 38,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Outlet, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 43,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.ScrollRestoration, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 44,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.Scripts, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 45,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(import_react2.LiveReload, {}, void 0, !1, {
-        fileName: "app/root.tsx",
-        lineNumber: 46,
-        columnNumber: 9
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/root.tsx",
-      lineNumber: 42,
-      columnNumber: 7
-    }, this)
-  ] }, void 0, !0, {
-    fileName: "app/root.tsx",
-    lineNumber: 37,
-    columnNumber: 5
-  }, this);
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("html", { lang: "en", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("head", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react2.Meta, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react2.Links, {})
+    ] }),
+    /* @__PURE__ */ (0, import_jsx_runtime2.jsxs)("body", { children: [
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react2.Outlet, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react2.ScrollRestoration, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react2.Scripts, {}),
+      /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(import_react2.LiveReload, {})
+    ] })
+  ] });
 }
 
 // app/routes/index.tsx
@@ -136,127 +96,43 @@ var import_react3 = require("react");
 var ja1_default = "/build/_assets/ja1-JA3J4AF3.png";
 
 // app/routes/index.tsx
-var import_jsx_dev_runtime3 = require("react/jsx-dev-runtime");
+var import_jsx_runtime3 = require("react/jsx-runtime");
 function Index() {
   return (0, import_react3.useEffect)(() => {
     let script = document.createElement("script");
     return script.src = "https://js.hcaptcha.com/1/api.js", script.async = !0, script.defer = !0, document.body.appendChild(script), () => {
       document.body.removeChild(script);
     };
-  }, []), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("img", { src: ja1_default }, void 0, !1, {
-      fileName: "app/routes/index.tsx",
-      lineNumber: 22,
-      columnNumber: 9
-    }, this) }, void 0, !1, {
-      fileName: "app/routes/index.tsx",
-      lineNumber: 21,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "inner-content", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "text", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "The" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 26,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h1", { children: "Valleywag" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 27,
-          columnNumber: 9
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("h2", { children: "From Tay Valley to Ottawa Valley" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 28,
-          columnNumber: 10
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: [
+  }, []), /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "container", children: [
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "logo", children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("img", { src: ja1_default }) }),
+    /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "inner-content", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("div", { className: "text", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("h1", { children: "The" }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("h1", { children: "Valleywag" }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("h2", { children: "From Tay Valley to Ottawa Valley" }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("p", { children: [
           "Subscribe to ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("u", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("span", { children: "The Valleywag" }, void 0, !1, {
-            fileName: "app/routes/index.tsx",
-            lineNumber: 29,
-            columnNumber: 29
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/index.tsx",
-            lineNumber: 29,
-            columnNumber: 26
-          }, this),
+          /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("u", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("span", { children: "The Valleywag" }) }),
           ": Your 5-minute update on every local news story that matters."
-        ] }, void 0, !0, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 29,
-          columnNumber: 10
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 25,
-        columnNumber: 7
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "name", name: "name", required: !0, placeholder: "First Name *" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 33,
-          columnNumber: 14
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 33,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 34,
-          columnNumber: 14
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 34,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("p", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { className: "submit", type: "submit", value: "Subscribe" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 35,
-          columnNumber: 14
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 35,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("div", { className: "h-captcha", "data-sitekey": "db0e76a6-3d84-4378-abe6-88526faac9d2" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 36,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { id: "f854f", type: "hidden", name: "l", checked: !0, value: "f854f96d-e421-4c68-8abf-4e6d451b9b9a" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 37,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("input", { type: "hidden", name: "nonce" }, void 0, !1, {
-          fileName: "app/routes/index.tsx",
-          lineNumber: 38,
-          columnNumber: 11
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/index.tsx",
-        lineNumber: 31,
-        columnNumber: 7
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/routes/index.tsx",
-      lineNumber: 24,
-      columnNumber: 7
-    }, this)
-  ] }, void 0, !0, {
-    fileName: "app/routes/index.tsx",
-    lineNumber: 20,
-    columnNumber: 5
-  }, this);
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime3.jsxs)("form", { method: "post", action: "https://app.jeffamzn.com/subscription/form", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("input", { className: "email", type: "name", name: "name", required: !0, placeholder: "First Name *" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("input", { className: "email", type: "email", name: "email", required: !0, placeholder: "Email Address *" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("p", { children: /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("input", { className: "submit", type: "submit", value: "Subscribe" }) }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("div", { className: "h-captcha", "data-sitekey": "db0e76a6-3d84-4378-abe6-88526faac9d2" }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("input", { id: "f854f", type: "hidden", name: "l", checked: !0, value: "f854f96d-e421-4c68-8abf-4e6d451b9b9a" }),
+        /* @__PURE__ */ (0, import_jsx_runtime3.jsx)("input", { type: "hidden", name: "nonce" })
+      ] })
+    ] })
+  ] });
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "43f515e3", entry: { module: "/build/entry.client-3Z3BMBC7.js", imports: ["/build/_shared/chunk-TY4X4K57.js", "/build/_shared/chunk-EETRBLDB.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ILMURH6Q.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-I3HC5N6V.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, url: "/build/manifest-43F515E3.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-YH4DBYNU.js", imports: ["/build/_shared/chunk-HDMCMAVD.js", "/build/_shared/chunk-MFPRU5OA.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-UXTT6FUI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-NUMZPXXS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "6eb2bd08", hmr: void 0, url: "/build/manifest-6EB2BD08.js" };
 
 // server-entry-module:@remix-run/dev/server-build
-var assetsBuildDirectory = "public/build", future = { unstable_cssModules: !1, unstable_cssSideEffectImports: !1, unstable_vanillaExtract: !1, v2_errorBoundary: !1, v2_meta: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
+var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !1, v2_headers: !1, v2_meta: !1, v2_normalizeFormMethod: !1, v2_routeConvention: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
   root: {
     id: "root",
     parentId: void 0,
@@ -283,4 +159,3 @@ var assetsBuildDirectory = "public/build", future = { unstable_cssModules: !1, u
   publicPath,
   routes
 });
-//# sourceMappingURL=server.js.map

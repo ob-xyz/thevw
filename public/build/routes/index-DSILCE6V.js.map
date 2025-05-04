@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.tsx"],
-  "sourcesContent": ["import logo from \"~/../public/img/fan.png\";\n\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <div className=\"inner-container\">\n        <img src={logo} />\n        <br />\n        <h1> Ari. I promise will drive a lot of traffic to Fanatics. Our audience will be yours. </h1>\n      </div>\n    </div>\n  );\n}\n"],
-  "mappings": ";;;;;;;;;AAMQ;AAJO,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb,6DAAC,SAAI,WAAU,mBACb;AAAA,uDAAC,SAAI,KAAK,eAAV;AAAA;AAAA;AAAA;AAAA,WAAgB;AAAA,IAChB,mDAAC,UAAD;AAAA;AAAA;AAAA;AAAA,WAAI;AAAA,IACJ,mDAAC,QAAG,qGAAJ;AAAA;AAAA;AAAA;AAAA,WAAyF;AAAA,OAH3F;AAAA;AAAA;AAAA;AAAA,SAIA,KALF;AAAA;AAAA;AAAA;AAAA,SAMA;AAEJ;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../../app/routes/index.tsx"],
-  "sourcesContent": ["import logo from \"~/../public/img/ja.png\";\n\nexport default function Index() {\n  return (\n    <div className=\"container\">\n      <img src={logo} />\n      <p>Profits grow here.</p>\n\n      <form method=\"post\" action=\"https://app.jeffamzn.com/subscription/form\" class=\"listmonk-form\">\n        <div className=\"box\">\n        <input type=\"email\" name=\"email\" required placeholder=\"E-mail\" />\n        <input className=\"submit\" type=\"submit\" value=\"Subscribe\" />\n\n        </div>\n\n          <input type=\"hidden\" name=\"nonce\" />\n      </form>\n      </div>\n  );\n}"],
-  "mappings": ";;;;;;;;;AAKM;AAHS,SAAR,QAAyB;AAC9B,SACE,mDAAC,SAAI,WAAU,aACb;AAAA,uDAAC,SAAI,KAAK,cAAV;AAAA;AAAA;AAAA;AAAA,WAAgB;AAAA,IAChB,mDAAC,OAAE,kCAAH;AAAA;AAAA;AAAA;AAAA,WAAqB;AAAA,IAErB,mDAAC,UAAK,QAAO,QAAO,QAAO,8CAA6C,OAAM,iBAC5E;AAAA,yDAAC,SAAI,WAAU,OACf;AAAA,2DAAC,WAAM,MAAK,SAAQ,MAAK,SAAQ,UAAQ,MAAC,aAAY,YAAtD;AAAA;AAAA;AAAA;AAAA,eAA+D;AAAA,QAC/D,mDAAC,WAAM,WAAU,UAAS,MAAK,UAAS,OAAM,eAA9C;AAAA;AAAA;AAAA;AAAA,eAA0D;AAAA,WAF1D;AAAA;AAAA;AAAA;AAAA,aAIA;AAAA,MAEE,mDAAC,WAAM,MAAK,UAAS,MAAK,WAA1B;AAAA;AAAA;AAAA;AAAA,aAAkC;AAAA,SAPtC;AAAA;AAAA;AAAA;AAAA,WAQA;AAAA,OAZF;AAAA;AAAA;AAAA;AAAA,SAaE;AAEN;",
-  "names": []
-}
