@@ -23,9 +23,9 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>The</h1>
-        <h1>Valleywag</h1>
-         <h2>Subscribe (it's free)</h2>
+        <h1>the</h1>
+        <h1>valleywag</h1>
+         <h2>Subscribe today (it's free)</h2>
          <p>Get the latest and grestest local news from Tay Valley to Ottawa Valley.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
