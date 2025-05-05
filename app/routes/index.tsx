@@ -25,8 +25,8 @@ return (
       <div className="text">
         <h1>The</h1>
         <h1>Valleywag</h1>
-         <h2>From Tay Valley to Ottawa Valley</h2>
-         <p>Subscribe to <u><span>The Valleywag</span></u>: Your 5-minute update on every local news story that matters.</p>
+         <h2>Subscribe (it's free)</h2>
+         <p>Get the latest and grestest local news from Tay Valley to Ottawa Valley.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
