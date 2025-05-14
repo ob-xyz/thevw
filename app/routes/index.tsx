@@ -23,10 +23,8 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>the</h1>
-        <h1>valleywag</h1>
-         <h2>Subscribe today (it's free)</h2>
-         <p>Get the latest and grestest local news from Tay Valley to Ottawa Valley.</p>
+        <h1>Know what's going on.</h1>
+         <p>Right now there are hundreds of news stories happening across Canada. But spotting the best ones can be a challenge. Join our free newsletter to get <b>every Canadian news story that matters</b>.</p>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}

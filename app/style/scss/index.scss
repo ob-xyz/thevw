@@ -1,57 +1,53 @@
 .container{
     display:flex;
     flex-direction: column;
+    padding-bottom:8rem;
     img{
         background:none;
-        margin:1.5rem 0 4rem 0rem;
-        width: 3.5rem;
+        margin:1rem 0 3.5rem 0rem;
+        width: 4rem;
     }
     form{
         margin-top: .5rem;
     }
-
 .inner-content{
         display: flex;
         flex-direction: column;
 .text{
-    h1{
+    h1, span{
+        padding-bottom:3rem;
         text-align: center;
         font-family: ku;
-        font-size: 4.5rem;
-        line-height:3.25rem;
+        font-size: 2.25rem;
+        line-height:2.75rem;
+        width:37.5%;
     }
-    h1:nth-child(1){
-        font-size:1.5rem;
-        line-height: 1rem;
+    span{
+        color:$darkred;
+        font-family: ku;
+        font-size: 2.5rem;
     }
-    h2{
+    p{
         text-align: center;
-        font-family: kl;
-        font-size: .925rem;
-        padding:1.25rem 0 3.25rem 0;
-    }
-    p, span{
-        text-align: center;
-        width:54%;
+        width:36.75%;
         font-size:1.15rem;
         line-height: 1.65rem;
-    }
-    u{
-        color:$darkred;
+        b{
+            font-family:bold;
+        }
     }
 }
 input{
-    width:23rem;
+    width:26rem;
     padding:.85rem .75rem;
     font-family: arial;
-    color:$black;
-    border:2px solid #000;
+    border:2px solid black;
     border-radius: .2rem;
     font-size: 1.1rem;  
     &:focus {
         outline: none; // Remove default browser outline
-        box-shadow: 0 0 1px 1px #000; // Change glow to black
-        border-color: #000; // Optional: Change the border to black as well
+        box-shadow: 0 0 1px 1px black; // Change glow to black
+        border-color: black; // Optional: Change the border to black as well
         caret-color: black; // Set the caret (blinking cursor) color to black
       }
 }
@@ -64,76 +60,75 @@ input{
     margin-top: .5rem;
     margin-bottom:.65rem;
     background-color: $darkred;
-    color:#fff;
+    color:white;
     &:hover{
-        opacity: .95;
+        opacity: .85;
         cursor: pointer; 
     }
 }  
   }
 }
-@media screen and (min-width: 606px) and (max-width: 690px) {
+@media screen and (min-width: 1125px) and (max-width: 1180px) {
     .container{
     .inner-content{
         .text{
-            p, span{
-                width:58.5%;
+            h1, span{
+                width:35%;
             }
         }
     }
  }
 }
-@media screen and (min-width: 552px) and (max-width:611px) {
+@media screen and (min-width: 1074px) and (max-width:1124px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
+            h1, span{
+                width:37.5%;
             }
-            p, span{
-                font-size:1rem;
-                line-height:1.5rem;
-                width:57.5%;
+            p{
+                width:40%;
             }
-        }
-        input{
-            width:18.85rem;
         }
     }
  }
 }
-@media screen and (min-width: 505px) and (max-width: 551px) {
+@media screen and (min-width: 901px) and (max-width:1073px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
+            h1, span{
+                width:45%;
             }
-            p, span{
-                font-size:1rem;
-                line-height:1.5rem;
-                width:65%;
+            p{
+                width:42.5%;
             }
-        }
-        input{
-            width:18.85rem;
         }
     }
  }
 }
-@media screen and (min-width: 466px) and (max-width: 504px) {
+@media screen and (min-width: 715px) and (max-width:900px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
+            h1, span{
+                width:50%;
             }
-            p, span{
-                font-size:1rem;
-                line-height:1.5rem;
+            p{
+                width:47.5%;
+            }
+        }
+    }
+ }
+}
+@media screen and (min-width: 630px) and (max-width:714px) {
+    .container{
+    .inner-content{
+        .text{
+            h1, span{
+                width:60%;
+            }
+            p{
                 width:70%;
             }
         }
@@ -143,98 +138,88 @@ input{
     }
  }
 }
-@media screen and (min-width: 450px) and (max-width: 465px) {
+@media screen and (min-width: 548px) and (max-width:629px) {
     .container{
     .inner-content{
         .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
+            h1, span{
+                width:77.5%;
             }
-            p, span{
+            p{
+                width:82.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 476px) and (max-width:547px) {
+    .container{
+    .inner-content{
+        .text{
+            h1, span{
+                width:80%;
+            }
+            p{
                 font-size:1rem;
+                line-height:1.25rem;
+                width:83.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (min-width: 397px) and (max-width:475px) {
+    .container{
+                img{
+        width: 3rem;
+        }
+    .inner-content{
+        .text{
+            h1{
+                width:67.5%;
+                font-size: 1.5rem;
                 line-height:1.5rem;
+            }
+            span{
+                font-size:1.9rem;
+            }
+            p{
+                font-size:1rem;
+                line-height:1.25rem;
+                width:83.5%;
+            }
+        }
+        input{
+            width:18.85rem;
+        }
+    }
+ }
+}
+@media screen and (max-width: 396px) {
+    .container{
+        img{
+        width: 3rem;
+        }
+    .inner-content{
+        .text{
+            h1, span{
                 width:70%;
+                font-size: 1.5rem;
+                line-height:1.75rem;
             }
-        }
-        input{
-            width:18.85rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 424px) and (max-width: 449px) {
-    .container{
-    .inner-content{
-        .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
+            span{
+                font-size:1.9rem;
             }
-            p, span{
+            p{
                 font-size:1rem;
-                line-height:1.5rem;
-                width:77.55%;
-            }
-        }
-        input{
-            width:18.85rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 394px) and (max-width: 423px) {
-    .container{
-    .inner-content{
-        .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
-            }
-            p, span{
-                font-size:1rem;
-                line-height:1.5rem;
-                width:82.50%;
-            }
-        }
-        input{
-            width:18.85rem;
-        }
-    }
- }
-}
-@media screen and (min-width: 372px) and (max-width: 393px) {
-    .container{
-        .inner-content{
-            .text{
-                h1{
-                    font-size:3rem;
-                    line-height: 2rem;
-                }
-                p, span{
-                    font-size:1rem;
-                    line-height:1.5rem;
-                    width:87.5%;
-                }
-            }
-            input{
-                width:18.85rem;
-            }
-        }
-     }
-    }
-@media screen and (max-width: 371px) {
-    .container{
-    .inner-content{
-        .text{
-            h1{
-                font-size:3rem;
-                line-height: 2rem;
-            }
-            p, span{
-                font-size:1rem;
-                line-height:1.5rem;
-                width:95%;
+                line-height:1.25rem;
+                width:80.0%;
             }
         }
         input{

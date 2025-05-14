@@ -30,11 +30,12 @@
 .container {
   display: flex;
   flex-direction: column;
+  padding-bottom: 8rem;
 }
 .container img {
   background: none;
-  margin: 1.5rem 0 4rem 0rem;
-  width: 3.5rem;
+  margin: 1rem 0 3.5rem 0rem;
+  width: 4rem;
 }
 .container form {
   margin-top: 0.5rem;
@@ -43,44 +44,40 @@
   display: flex;
   flex-direction: column;
 }
-.container .inner-content .text h1 {
+.container .inner-content .text h1, .container .inner-content .text span {
+  padding-bottom: 3rem;
   text-align: center;
   font-family: ku;
-  font-size: 4.5rem;
-  line-height: 3.25rem;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  width: 37.5%;
 }
-.container .inner-content .text h1:nth-child(1) {
-  font-size: 1.5rem;
-  line-height: 1rem;
+.container .inner-content .text span {
+  color: #720517;
+  font-family: ku;
+  font-size: 2.5rem;
 }
-.container .inner-content .text h2 {
+.container .inner-content .text p {
   text-align: center;
-  font-family: kl;
-  font-size: 0.925rem;
-  padding: 1.25rem 0 3.25rem 0;
-}
-.container .inner-content .text p, .container .inner-content .text span {
-  text-align: center;
-  width: 54%;
+  width: 36.75%;
   font-size: 1.15rem;
   line-height: 1.65rem;
 }
-.container .inner-content .text u {
-  color: #720517;
+.container .inner-content .text p b {
+  font-family: bold;
 }
 .container .inner-content input {
-  width: 23rem;
+  width: 26rem;
   padding: 0.85rem 0.75rem;
   font-family: arial;
-  color: #121212;
-  border: 2px solid #000;
+  border: 2px solid black;
   border-radius: 0.2rem;
   font-size: 1.1rem;
 }
 .container .inner-content input:focus {
   outline: none;
-  box-shadow: 0 0 1px 1px #000;
-  border-color: #000;
+  box-shadow: 0 0 1px 1px black;
+  border-color: black;
   caret-color: black;
 }
 .container .inner-content .email {
@@ -92,125 +89,114 @@
   margin-top: 0.5rem;
   margin-bottom: 0.65rem;
   background-color: #720517;
-  color: #fff;
+  color: white;
 }
 .container .inner-content .submit:hover {
-  opacity: 0.95;
+  opacity: 0.85;
   cursor: pointer;
 }
 
-@media screen and (min-width: 606px) and (max-width: 690px) {
-  .container .inner-content .text p, .container .inner-content .text span {
-    width: 58.5%;
+@media screen and (min-width: 1125px) and (max-width: 1180px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 35%;
   }
 }
-@media screen and (min-width: 552px) and (max-width: 611px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+@media screen and (min-width: 1074px) and (max-width: 1124px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 37.5%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 57.5%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
+  .container .inner-content .text p {
+    width: 40%;
   }
 }
-@media screen and (min-width: 505px) and (max-width: 551px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+@media screen and (min-width: 901px) and (max-width: 1073px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 45%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 65%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
+  .container .inner-content .text p {
+    width: 42.5%;
   }
 }
-@media screen and (min-width: 466px) and (max-width: 504px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+@media screen and (min-width: 715px) and (max-width: 900px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 50%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .container .inner-content .text p {
+    width: 47.5%;
+  }
+}
+@media screen and (min-width: 630px) and (max-width: 714px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 60%;
+  }
+  .container .inner-content .text p {
     width: 70%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 450px) and (max-width: 465px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+@media screen and (min-width: 548px) and (max-width: 629px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 77.5%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 70%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
-  }
-}
-@media screen and (min-width: 424px) and (max-width: 449px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 77.55%;
-  }
-  .container .inner-content input {
-    width: 18.85rem;
-  }
-}
-@media screen and (min-width: 394px) and (max-width: 423px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
-  }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .container .inner-content .text p {
     width: 82.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 372px) and (max-width: 393px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+@media screen and (min-width: 476px) and (max-width: 547px) {
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 80%;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
+  .container .inner-content .text p {
     font-size: 1rem;
-    line-height: 1.5rem;
-    width: 87.5%;
+    line-height: 1.25rem;
+    width: 83.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (max-width: 371px) {
-  .container .inner-content .text h1 {
-    font-size: 3rem;
-    line-height: 2rem;
+@media screen and (min-width: 397px) and (max-width: 475px) {
+  .container img {
+    width: 3rem;
   }
-  .container .inner-content .text p, .container .inner-content .text span {
-    font-size: 1rem;
+  .container .inner-content .text h1 {
+    width: 67.5%;
+    font-size: 1.5rem;
     line-height: 1.5rem;
-    width: 95%;
+  }
+  .container .inner-content .text span {
+    font-size: 1.9rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 83.5%;
+  }
+  .container .inner-content input {
+    width: 18.85rem;
+  }
+}
+@media screen and (max-width: 396px) {
+  .container img {
+    width: 3rem;
+  }
+  .container .inner-content .text h1, .container .inner-content .text span {
+    width: 70%;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+  .container .inner-content .text span {
+    font-size: 1.9rem;
+  }
+  .container .inner-content .text p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    width: 80%;
   }
   .container .inner-content input {
     width: 18.85rem;
@@ -292,11 +278,6 @@ ul,
 ol {
   list-style: none;
   margin: 0;
-}
-
-span {
-  font-family: bold;
-  color: #fff;
 }
 
 button {
