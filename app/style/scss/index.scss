@@ -5,7 +5,7 @@
     img{
         background:none;
         margin:1rem 0 3.5rem 0rem;
-        width: 4rem;
+        width: 3.5rem;
     }
     form{
         margin-top: .5rem;
@@ -14,22 +14,17 @@
         display: flex;
         flex-direction: column;
 .text{
-    h1, span{
+    h1{
         padding-bottom:3rem;
         text-align: center;
         font-family: ku;
-        font-size: 2.25rem;
-        line-height:2.75rem;
-        width:37.5%;
-    }
-    span{
-        color:$darkred;
-        font-family: ku;
-        font-size: 2.5rem;
+        font-size: 3rem;
+        line-height:3.5rem;
+        width:35%;
     }
     p{
         text-align: center;
-        width:36.75%;
+        width:40%;
         font-size:1.15rem;
         line-height: 1.65rem;
         b{
@@ -72,8 +67,8 @@ input{
     .container{
     .inner-content{
         .text{
-            h1, span{
-                width:35%;
+            h1{
+                width:40%;
             }
         }
     }
@@ -83,8 +78,8 @@ input{
     .container{
     .inner-content{
         .text{
-            h1, span{
-                width:37.5%;
+            h1{
+                width:42.5%;
             }
             p{
                 width:40%;
@@ -97,22 +92,22 @@ input{
     .container{
     .inner-content{
         .text{
-            h1, span{
-                width:45%;
+            h1{
+                width:50%;
             }
             p{
-                width:42.5%;
+                width:45%;
             }
         }
     }
  }
 }
-@media screen and (min-width: 715px) and (max-width:900px) {
+@media screen and (min-width: 862px) and (max-width:900px) {
     .container{
     .inner-content{
         .text{
             h1, span{
-                width:50%;
+                width:55%;
             }
             p{
                 width:47.5%;
@@ -121,11 +116,11 @@ input{
     }
  }
 }
-@media screen and (min-width: 630px) and (max-width:714px) {
+@media screen and (min-width: 720px) and (max-width:861px) {
     .container{
     .inner-content{
         .text{
-            h1, span{
+            h1{
                 width:60%;
             }
             p{
@@ -138,15 +133,15 @@ input{
     }
  }
 }
-@media screen and (min-width: 548px) and (max-width:629px) {
+@media screen and (min-width: 556px) and (max-width:719px) {
     .container{
     .inner-content{
         .text{
-            h1, span{
+            h1{
                 width:77.5%;
             }
             p{
-                width:82.5%;
+                width:90%;
             }
         }
         input{
@@ -155,17 +150,17 @@ input{
     }
  }
 }
-@media screen and (min-width: 476px) and (max-width:547px) {
+@media screen and (min-width: 476px) and (max-width:555px) {
     .container{
     .inner-content{
         .text{
-            h1, span{
-                width:80%;
+            h1{
+                width: 97.5%;
             }
             p{
                 font-size:1rem;
                 line-height:1.25rem;
-                width:83.5%;
+                width:92.5%;
             }
         }
         input{
@@ -182,12 +177,9 @@ input{
     .inner-content{
         .text{
             h1{
-                width:67.5%;
+                width:75%;
                 font-size: 1.5rem;
                 line-height:1.5rem;
-            }
-            span{
-                font-size:1.9rem;
             }
             p{
                 font-size:1rem;
@@ -208,13 +200,10 @@ input{
         }
     .inner-content{
         .text{
-            h1, span{
+            h1{
                 width:70%;
                 font-size: 1.5rem;
                 line-height:1.75rem;
-            }
-            span{
-                font-size:1.9rem;
             }
             p{
                 font-size:1rem;

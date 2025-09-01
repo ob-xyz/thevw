@@ -28,7 +28,7 @@ export const links: LinksFunction = () => {
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
   title: "The Valley Wag",
-  description: "Know what's going on in Canada.",
+  description: "Know what's going on.",
   viewport: "width=device-width,initial-scale=1",
 });
 

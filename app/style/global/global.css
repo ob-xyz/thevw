@@ -35,7 +35,7 @@
 .container img {
   background: none;
   margin: 1rem 0 3.5rem 0rem;
-  width: 4rem;
+  width: 3.5rem;
 }
 .container form {
   margin-top: 0.5rem;
@@ -44,22 +44,17 @@
   display: flex;
   flex-direction: column;
 }
-.container .inner-content .text h1, .container .inner-content .text span {
+.container .inner-content .text h1 {
   padding-bottom: 3rem;
   text-align: center;
   font-family: ku;
-  font-size: 2.25rem;
-  line-height: 2.75rem;
-  width: 37.5%;
-}
-.container .inner-content .text span {
-  color: #720517;
-  font-family: ku;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  width: 35%;
 }
 .container .inner-content .text p {
   text-align: center;
-  width: 36.75%;
+  width: 40%;
   font-size: 1.15rem;
   line-height: 1.65rem;
 }
@@ -97,36 +92,36 @@
 }
 
 @media screen and (min-width: 1125px) and (max-width: 1180px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 35%;
+  .container .inner-content .text h1 {
+    width: 40%;
   }
 }
 @media screen and (min-width: 1074px) and (max-width: 1124px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 37.5%;
+  .container .inner-content .text h1 {
+    width: 42.5%;
   }
   .container .inner-content .text p {
     width: 40%;
   }
 }
 @media screen and (min-width: 901px) and (max-width: 1073px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 45%;
+  .container .inner-content .text h1 {
+    width: 50%;
   }
   .container .inner-content .text p {
-    width: 42.5%;
+    width: 45%;
   }
 }
-@media screen and (min-width: 715px) and (max-width: 900px) {
+@media screen and (min-width: 862px) and (max-width: 900px) {
   .container .inner-content .text h1, .container .inner-content .text span {
-    width: 50%;
+    width: 55%;
   }
   .container .inner-content .text p {
     width: 47.5%;
   }
 }
-@media screen and (min-width: 630px) and (max-width: 714px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
+@media screen and (min-width: 720px) and (max-width: 861px) {
+  .container .inner-content .text h1 {
     width: 60%;
   }
   .container .inner-content .text p {
@@ -136,25 +131,25 @@
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 548px) and (max-width: 629px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
+@media screen and (min-width: 556px) and (max-width: 719px) {
+  .container .inner-content .text h1 {
     width: 77.5%;
   }
   .container .inner-content .text p {
-    width: 82.5%;
+    width: 90%;
   }
   .container .inner-content input {
     width: 18.85rem;
   }
 }
-@media screen and (min-width: 476px) and (max-width: 547px) {
-  .container .inner-content .text h1, .container .inner-content .text span {
-    width: 80%;
+@media screen and (min-width: 476px) and (max-width: 555px) {
+  .container .inner-content .text h1 {
+    width: 97.5%;
   }
   .container .inner-content .text p {
     font-size: 1rem;
     line-height: 1.25rem;
-    width: 83.5%;
+    width: 92.5%;
   }
   .container .inner-content input {
     width: 18.85rem;
@@ -165,12 +160,9 @@
     width: 3rem;
   }
   .container .inner-content .text h1 {
-    width: 67.5%;
+    width: 75%;
     font-size: 1.5rem;
     line-height: 1.5rem;
-  }
-  .container .inner-content .text span {
-    font-size: 1.9rem;
   }
   .container .inner-content .text p {
     font-size: 1rem;
@@ -185,13 +177,10 @@
   .container img {
     width: 3rem;
   }
-  .container .inner-content .text h1, .container .inner-content .text span {
+  .container .inner-content .text h1 {
     width: 70%;
     font-size: 1.5rem;
     line-height: 1.75rem;
-  }
-  .container .inner-content .text span {
-    font-size: 1.9rem;
   }
   .container .inner-content .text p {
     font-size: 1rem;

@@ -23,8 +23,7 @@ return (
       </div>
       <div className="inner-content">
       <div className="text">
-        <h1>Know what's going on.</h1>
-         <p>Right now there are hundreds of news stories happening across Canada. But spotting the best ones can be a challenge. Join our free newsletter to get <b>every Canadian news story that matters</b>.</p>
+        <h1>Sign up to stay informed.</h1>
       </div>
       <form method="post" action="https://app.jeffamzn.com/subscription/form">
           {/* <input type="text" name="name" placeholder="Enter Your Name" /> */}
