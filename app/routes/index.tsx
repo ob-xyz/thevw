@@ -11,7 +11,7 @@ import handcoin from "~/../public/img/ott.jpg";
 import email from "~/../public/img/email.png";
 
 
-const rotatingWords = ["From Ottawa Valley.", "To Tay Valley."];
+const rotatingWords = ["From Tay Valley.", "To Ottawa Valley."];
 export default function Index() {
   const [index, setIndex] = useState(0);
   const [fadeOut, setFadeOut] = useState(false);
